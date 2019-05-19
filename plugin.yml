@@ -1,0 +1,17 @@
+name: FloatingSlot
+main: PJZ9n\FloatingSlot\Main
+version: 3.0.0
+api: 3
+load: POSTWORLD
+author: PJZ9n
+desctiption: FloatingSlot
+website: https://github.com/PJZ9n
+permissions:
+  FloatingSlot:
+    default: true
+    children:
+      FloatingSlot.Command:
+        default: true
+        children:
+          FloatingSlot.Command.fslot:
+            default: op
